@@ -1,7 +1,7 @@
 version: "1"
 services:
   web:
-    image: ditocahyapratama/docker-react:latest
+    image: doyatama/docker-react:latest
     container_name: web
     restart: unless-stopped
     ports:
