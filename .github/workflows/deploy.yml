@@ -26,7 +26,7 @@ jobs:
 
       - name: 'Install dependencies'
         run: |
-          npm intall ci
+          npm install ci
       - name: 'Build the app'
         run: |
           npm run build
