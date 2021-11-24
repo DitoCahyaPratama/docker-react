@@ -118,7 +118,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{env.INSTANCE_IP}}
-          username: opc
+          username: ubuntu
           key: ${{secrets.OCI_KEY_FILE}}
           script: |
             sudo yum install -y yum-utils
