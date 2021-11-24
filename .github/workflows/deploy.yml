@@ -109,7 +109,7 @@ jobs:
         uses: appleboy/scp-action@master
         with:
           host: ${{ env.INSTANCE_IP }}
-          username: opc
+          username: ubuntu
           key: ${{ secrets.OCI_KEY_FILE }}
           source: "docker-compose.yml"
           target: "./"
